@@ -1,0 +1,49 @@
+# Nmap 7.95 scan initiated Mon Aug  4 02:05:46 2025 as: /usr/lib/nmap/nmap --privileged -sS -oN scan_result.txt 192.168.31.102/24
+Nmap scan report for jiofiber.local.html (192.168.31.1)
+Host is up (0.0030s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+53/tcp   open  domain
+80/tcp   open  http
+443/tcp  open  https
+7443/tcp open  oracleas-https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+MAC Address: 3C:55:DB:BE:50:F5 (Shenzhen Skyworth Digital  Technology)
+
+Nmap scan report for dell.lan (192.168.31.111)
+Host is up (0.0042s latency).
+Not shown: 988 closed tcp ports (reset)
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+554/tcp   open  rtsp
+2869/tcp  open  icslap
+10243/tcp open  unknown
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49157/tcp open  unknown
+MAC Address: BC:85:56:A5:D2:50 (Hon Hai Precision Ind.)
+
+Nmap scan report for Shashank.lan (192.168.31.217)
+Host is up (0.0017s latency).
+All 1000 scanned ports on Shashank.lan (192.168.31.217) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: EC:2E:98:A3:AF:63 (AzureWave Technology)
+
+Nmap scan report for 192.168.31.250
+Host is up (0.0062s latency).
+All 1000 scanned ports on 192.168.31.250 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 30:4B:07:30:2F:7C (Motorola Mobility, a Lenovo Company)
+
+Nmap scan report for kali.lan (192.168.31.102)
+Host is up (0.0000030s latency).
+All 1000 scanned ports on kali.lan (192.168.31.102) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+# Nmap done at Mon Aug  4 02:06:45 2025 -- 256 IP addresses (5 hosts up) scanned in 58.33 seconds
