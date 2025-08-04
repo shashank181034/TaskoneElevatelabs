@@ -29,3 +29,5 @@ Wireshark shows that 192.168.**.* responded to the SYN probe with a SYN-ACK pack
 ### Screenshot 3: RST-ACK Response (Closed Port)
 This shows that some devices responded with a TCP Reset (RST), which indicates the scanned port is closed.
 
+> ⚠️ All IP addresses shown are part of a local, private test network (`192.168.31.0/24`). No public or sensitive data is exposed.
+
