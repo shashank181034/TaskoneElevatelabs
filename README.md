@@ -24,7 +24,7 @@ To scan the local network for open ports and analyze traffic to understand netwo
 Wireshark captured TCP SYN packets from my machine to all hosts in the network. These packets are the first part of a TCP handshake and are used by Nmap to probe open ports.
 
 ### Screenshot 2: SYN-ACK Response (Open Port)
-Wireshark shows that 192.168.31.1 responded to the SYN probe with a SYN-ACK packet, meaning the port (53) is open and accepting connections.
+Wireshark shows that 192.168.**.* responded to the SYN probe with a SYN-ACK packet, meaning the port (53) is open and accepting connections.
 
 ### Screenshot 3: RST-ACK Response (Closed Port)
 This shows that some devices responded with a TCP Reset (RST), which indicates the scanned port is closed.
