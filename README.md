@@ -31,3 +31,14 @@ This shows that some devices responded with a TCP Reset (RST), which indicates t
 
 > ⚠️ All IP addresses shown are part of a local, private test network (`192.168.31.0/24`). No public or sensitive data is exposed.
 
+### 🔐 Security Risks Identified
+
+- **192.168.31.1 (JioFiber Router)**
+  - Port 80 (HTTP): Unencrypted; vulnerable to credential theft.
+  - Ports 8080, 8443, 7443: Often expose admin panels. If not password-protected, can be critical.
+  - Port 53: Can be abused for DNS attacks if open to public.
+
+- **192.168.31.111 (Windows PC)**
+  - Ports 135, 139, 445: Related to SMB and RPC services. Vulnerable to known exploits like EternalBlue.
+  - UPnP ports (2869, 10243): Risky if device is accessible over the internet.
+  - Dynamic ports (49152+): Should be monitored for unusual activity.
